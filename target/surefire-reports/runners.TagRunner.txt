@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: runners.TagRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.005 s <<< FAILURE! - in runners.TagRunner
+runners.TagRunner.initializationError  Time elapsed: 0.005 s  <<< ERROR!
+java.lang.IllegalArgumentException: path must exist: C:\Users\Abdi Arman\IdeaProjects\CucumberSelenium\src\test\resources\features\firstFeature.feature
+

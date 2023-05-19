@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.423" tests="14" skipped="0" failures="4" errors="0">
+<testcase classname="Background Kullanımı" name="Google amazon search test" time="4.623">
+<failure/>
+<system-out><![CDATA[
+Given Kullanıcı https://www.google.com/ sayfasındadır.......................passed
+When Kullanıcı arama kısmına "amazon" yazar.................................undefined
+And Kullanıcı aramayı gerçekleştirdiğinde...................................skipped
+Then Kullanıcı title de "amazon" u görmelidir...............................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Background Kullanımı" name="" time="0.439">
+<failure/>
+<system-out><![CDATA[
+Given Kullanıcı https://www.google.com/ sayfasındadır.......................passed
+When Kullanıcı arama kısmına "linkedin" yazar...............................undefined
+And Kullanıcı aramayı gerçekleştirdiğinde...................................skipped
+Then Kullanıcı title de "linkedin" ı görür..................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Cross Browser" name="Chrome Browser with Test" time="0.002">
+<system-out><![CDATA[
+Given Kullanıcı chrome browseri açmıştır....................................passed
+And amazon com a gitmiştir..................................................passed
+When Kullanıcı arama kutusuna lego yazdığında...............................passed
+Then Kullanıcı sonuçlar kısmında lego ifadesini görür.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cross Browser" name="Firefox Browser with Test" time="0.002">
+<system-out><![CDATA[
+Given Kullanıcı firefox browseri açmıştır...................................passed
+And amazon com a gitmiştir..................................................passed
+When Kullanıcı arama kutusuna lego yazdığında...............................passed
+Then Kullanıcı sonuçlar kısmında lego ifadesini görür.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="DataTable Usage" name="DataTable" time="0.005">
+<system-out><![CDATA[
+Given Aşağıdaki tablo bu metodda parametre olarak kullanılacaktır...........passed
+]]></system-out>
+</testcase>
+<testcase classname="First Feature Test" name="First Feature Test01" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given Elimizde 5 sayısı mevcut..............................................passed
+And Elimizde 3 sayısı mevcut................................................passed
+When Bu sayılar toplandığında...............................................passed
+Then Toplamın 8 olduğu görülmelidir.........................................undefined
+]]></system-out>
+</testcase>
+<testcase classname="First Feature Test" name="First Feature Test02" time="0.002">
+<failure/>
+<system-out><![CDATA[
+Given Elimizde 5 sayısı mevcut..............................................passed
+And Elimizde 3 sayısı mevcut................................................passed
+When Bu sayılar toplandığında...............................................passed
+Then Toplamın 8 olduğu görülmelidir.........................................undefined
+]]></system-out>
+</testcase>
+<testcase classname="Parameterized step usage" name="Parameterized step" time="0.006">
+<system-out><![CDATA[
+Given Bu parametreli bir stepdir ve değeri "Karl"...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parametreli Task" name="Test01 saerch cucumber" time="0.726">
+<system-out><![CDATA[
+Given Kullanıcı google sayfasına gider......................................passed
+When Kullanıcı arama kısmına cucumber girdiğinde............................passed
+Then Sayfa başlığının cucumber olduğunu görür...............................passed
+And sayfayı kapatır.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Parametreli Task" name="Test02 saerch selenium" time="3.177">
+<system-out><![CDATA[
+Given Kullanıcı google sayfasına gider......................................passed
+When Kullanıcı arama kısmına selenium girdiğinde............................passed
+Then sayfa başlığının selenium olduğunu görür...............................passed
+And sayfayı kapatır.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.1" time="0.004">
+<system-out><![CDATA[
+Given Sayi1 5...............................................................passed
+And Sayi2 3.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 8 olmalidir......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.2" time="0">
+<system-out><![CDATA[
+Given Sayi1 2...............................................................passed
+And Sayi2 4.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 6 olmalidir......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.3" time="0.002">
+<system-out><![CDATA[
+Given Sayi1 1...............................................................passed
+And Sayi2 1.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 2 olmalidir......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Scenario Outline Usage" name=" - Example #1.4" time="0.001">
+<system-out><![CDATA[
+Given Sayi1 7...............................................................passed
+And Sayi2 8.................................................................passed
+When sayilar toplandiginda..................................................passed
+Then sonuc 15 olmalidir.....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
